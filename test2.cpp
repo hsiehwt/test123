@@ -21,7 +21,8 @@ class Bomb : public Weapon
 {
     public:
        void features()
-         { cout << "Loading bomb features.\n"; }
+
+{ cout << "Loading bomb features.\n"; }
 };
 
 class Gun : public Weapon
@@ -69,6 +70,7 @@ int main()
 
     A1.cnt1 = 10;
 
+    printf("A1.cnt1 = %d\n", A1.cnt1);	
     printf("B1.cnt1 = %d\n", B1.cnt1);
 
     printf("Factorial of %d is %d\n", i, factorial(i));
