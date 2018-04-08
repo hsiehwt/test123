@@ -21,8 +21,7 @@ class Bomb : public Weapon
 {
     public:
        void features()
-
-{ cout << "Loading bomb features.\n"; }
+         { cout << "Loading bomb features.\n"; }
 };
 
 class Gun : public Weapon
